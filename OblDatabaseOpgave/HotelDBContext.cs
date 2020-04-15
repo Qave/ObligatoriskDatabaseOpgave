@@ -84,5 +84,7 @@ namespace OblDatabaseOpgave
                 .WithOptional(e => e.RoomType)
                 .HasForeignKey(e => e.RoomTypes_fk);
         }
+
+        public System.Data.Entity.DbSet<OblDatabaseOpgave.BookingsView> BookingsViews { get; set; }
     }
 }

@@ -28,7 +28,10 @@ namespace OblDatabaseProjectConsole
             //// Delete
             //ManageFacilities.DeleteFacility(6);
 
-            ManageFacilities.ReadFacilities();
+
+            // SHOW ET VIEW
+            ManageFacilities.ShowBookingsView();
+            //ManageFacilities.ReadFacilities();
             Console.ReadLine();
 
         }

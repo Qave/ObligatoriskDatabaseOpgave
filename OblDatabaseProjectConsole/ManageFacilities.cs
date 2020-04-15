@@ -108,5 +108,35 @@ namespace OblDatabaseProjectConsole
                 }
             }
         }
+
+        public static void ShowBookingsView()
+        {
+            HttpClientHandler handler = new HttpClientHandler();
+            handler.UseDefaultCredentials = true;
+            using (var client = new HttpClient(handler))
+            {
+                client.BaseAddress = new Uri(serverUrl);
+                client.DefaultRequestHeaders.Clear();
+                client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+                List<Hotel> facilitiesList = new List<Hotel>();
+                try
+                {
+                    var response = client.GetAsync("api/BookingsViews").Result;
+                    var view = response.Content.ReadAsAsync<IEnumerable<BookingsView>>().Result;
+                    if (response.IsSuccessStatusCode)
+                    {
+                        foreach (var item in view)
+                        {
+                            Console.WriteLine(item);
+                        }
+                    }
+                }
+                catch (Exception)
+                {
+                    throw;
+                }
+            }
+        }
+
     }
 }
