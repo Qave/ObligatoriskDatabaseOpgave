@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29920.165
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OblDatabaseOpgave", "OblDatabaseOpgave\OblDatabaseOpgave.csproj", "{D3CAB826-C056-45F8-B1EC-16A010454F6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OblDatabaseProjectConsole", "OblDatabaseProjectConsole\OblDatabaseProjectConsole.csproj", "{F4EDF81F-0481-49C2-B1E4-319098440E2D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D3CAB826-C056-45F8-B1EC-16A010454F6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3CAB826-C056-45F8-B1EC-16A010454F6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3CAB826-C056-45F8-B1EC-16A010454F6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3CAB826-C056-45F8-B1EC-16A010454F6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4EDF81F-0481-49C2-B1E4-319098440E2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4EDF81F-0481-49C2-B1E4-319098440E2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4EDF81F-0481-49C2-B1E4-319098440E2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4EDF81F-0481-49C2-B1E4-319098440E2D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E7D2D59D-87B9-4211-BC47-0F7B36773E99}
+	EndGlobalSection
+EndGlobal
