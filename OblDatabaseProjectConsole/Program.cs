@@ -30,8 +30,10 @@ namespace OblDatabaseProjectConsole
 
 
             // SHOW ET VIEW
-            ManageFacilities.ShowBookingsView();
-            //ManageFacilities.ReadFacilities();
+            //ManageFacilities.ShowBookingsView();
+
+
+            ManageFacilities.ReadFacilities();
             Console.ReadLine();
 
         }
